@@ -1,4 +1,4 @@
-# Who Is My Leader?
+<center># Who Is My Leader?</center>
 
 <p align="center">
   <strong>A different way to explore political alignment.</strong>
