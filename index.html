@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is my Leader? | Political & Psychological Archetypes</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- LANDING SCREEN -->
+        <div id="landing-screen">
+            <span class="brand">Ideological & Psychological Assessment</span>
+            <h1>Who is your leader?</h1>
+            <p class="intro-text">Based on established frameworks in political psychology and leadership theory, this assessment maps your worldview to specific leadership archetypes.</p>
+            
+            <!-- UPDATED BUTTON: Disabled by default until JSON loads -->
+            <button class="start-btn" onclick="startQuiz()" disabled>Loading Data...</button>
+        </div>
+
+        <!-- QUIZ SCREEN -->
+        <div id="quiz-screen">
+            <div class="quiz-header">
+                <span id="question-counter">Question 1 of 5</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <div class="question-text" id="question-text">
+                <!-- Question text injected here -->
+            </div>
+
+            <div class="options-container" id="options-container">
+                <!-- Buttons injected here -->
+            </div>
+        </div>
+
+        <!-- RESULT SCREEN -->
+        <div id="result-screen">
+            <span class="result-label">Your Archetype</span>
+            <h2 class="result-title" id="result-title">The Visionary</h2>
+            <p class="result-description" id="result-description">You believe in...</p>
+            
+            <div class="traits-grid">
+                <div class="trait-item">
+                    <h4>Economic Axis</h4>
+                    <p id="trait-economic">-</p>
+                </div>
+                <div class="trait-item">
+                    <h4>Social Axis</h4>
+                    <p id="trait-social">-</p>
+                </div>
+                <div class="trait-item">
+                    <h4>Leadership Style</h4>
+                    <p id="trait-leadership">-</p>
+                </div>
+                <div class="trait-item">
+                    <h4>View on Authority</h4>
+                    <p id="trait-authority">-</p>
+                </div>
+            </div>
+
+            <button class="restart-btn" onclick="location.reload()">Take Assessment Again</button>
+        </div>
+
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

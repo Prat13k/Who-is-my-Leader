@@ -1,0 +1,47 @@
+[
+    {
+        "text": "Society functions best when traditions are respected and maintained.",
+        "options": [
+            { "text": "Strongly Disagree", "score": { "progressive": 2 } },
+            { "text": "Disagree", "score": { "progressive": 1 } },
+            { "text": "Agree", "score": { "traditional": 1 } },
+            { "text": "Strongly Agree", "score": { "traditional": 2 } }
+        ]
+    },
+    {
+        "text": "The state should have the power to enforce order, even if it limits certain individual freedoms.",
+        "options": [
+            { "text": "Strongly Disagree", "score": { "libertarian": 2 } },
+            { "text": "Disagree", "score": { "libertarian": 1 } },
+            { "text": "Agree", "score": { "authoritarian": 1 } },
+            { "text": "Strongly Agree", "score": { "authoritarian": 2 } }
+        ]
+    },
+    {
+        "text": "Individual economic success should be determined by the free market, not the state.",
+        "options": [
+            { "text": "Strongly Disagree", "score": { "left": 2 } },
+            { "text": "Disagree", "score": { "left": 1 } },
+            { "text": "Agree", "score": { "right": 1 } },
+            { "text": "Strongly Agree", "score": { "right": 2 } }
+        ]
+    },
+    {
+        "text": "Leaders should focus on pragmatic results rather than strict ideological purity.",
+        "options": [
+            { "text": "Strongly Disagree", "score": { "ideological": 2 } },
+            { "text": "Disagree", "score": { "ideological": 1 } },
+            { "text": "Agree", "score": { "pragmatic": 1 } },
+            { "text": "Strongly Agree", "score": { "pragmatic": 2 } }
+        ]
+    },
+    {
+        "text": "Progress requires breaking away from old systems and embracing radical change.",
+        "options": [
+            { "text": "Strongly Disagree", "score": { "traditional": 2 } },
+            { "text": "Disagree", "score": { "traditional": 1 } },
+            { "text": "Agree", "score": { "progressive": 1 } },
+            { "text": "Strongly Agree", "score": { "progressive": 2 } }
+        ]
+    }
+]
